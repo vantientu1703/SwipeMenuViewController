@@ -33,7 +33,7 @@ open class TabView: UIScrollView {
     open weak var tabViewDelegate: TabViewDelegate?
     open weak var dataSource: TabViewDataSource?
 
-    var itemViews: [TabItemView] = []
+    public var itemViews: [TabItemView] = []
 
     fileprivate let containerView: UIStackView = UIStackView()
 

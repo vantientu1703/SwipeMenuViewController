@@ -1,6 +1,6 @@
 import UIKit
 
-final class TabItemView: UIView {
+final public class TabItemView: UIView {
 
     public var titleLabel: UILabel = UILabel()
 
